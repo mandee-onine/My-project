@@ -1,0 +1,116 @@
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.material-icons{
+    cursor: pointer;
+    color: gray;
+}
+.card{
+    width: 300px;
+}
+.card .card-img .card-title{
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.right{
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+.brand-logo img{
+    width:70px;
+    height:56px;
+}
+nav {
+    color: #fff;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    line-height: 56px;
+}
+.Btn{
+    display: flex;
+    margin: -50px;
+    position: absolute;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+  }
+  .btn-1{
+    background: #729133;
+    width: 160px !important;
+    height: 40px !important;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fefefe;
+    box-shadow: 2px 1px 5px 1px #222;
+    margin: 20px;
+  }
+  .placeOrder #quickLink img { width: 60px; height: 60px;  }
+  
+  .placeOrder #quickLink p { font-size: 12px; padding-left: 16px;}
+
+  .placeOrder #quickLink {
+    /* grid-template-columns: repeat(3,140px); */
+    /* border-top: 1px solid #E5E5E5 !important; */
+    display: flex;
+    margin-top: 5px;
+    padding-top: 10px;
+    justify-content: center;
+    flex-shrink: inherit;
+    align-content: center;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+  }
+
+      .placeOrder #quickLink a { 
+        display: grid; 
+        justify-items: center; 
+        /* align-items: center;  */
+        text-decoration: none; 
+        color: black;
+        padding-left: 30px; 
+      }
+      
+  @media (min-width: 400px) {
+    .responsive, .btn-1, .Btn {
+      width: 100%;
+      margin-left: 0px;
+    }
+    .Btn{
+        padding-left: 200px;
+        /* width: 160px !important;
+    height: 40px !important; */
+    }
+  }
